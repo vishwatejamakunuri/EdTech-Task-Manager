@@ -1,0 +1,131 @@
+/* ===============================
+   Global Styles
+=============================== */
+body {
+  margin: 0;
+  padding: 0;
+  background: #1e1e1e;
+  font-family: "Segoe UI", sans-serif;
+  color: white;
+}
+
+/* Center page content (Login/Register) */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 40px;
+}
+
+/* ===============================
+   Auth (Login/Register) Card
+=============================== */
+.card {
+  width: 380px;
+  background: #fff;
+  color: #000;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  margin-top: 20px;
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form fields */
+.field {
+  margin-bottom: 14px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* Auth button */
+.card button {
+  width: 100%;
+  padding: 10px 16px;
+  background: #0078ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.card button:hover {
+  background: #0060cc;
+}
+
+/* Toggle buttons (Login | Register) */
+.toggle {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.toggle button {
+  padding: 10px 26px;
+  border-radius: 6px;
+  background: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.toggle .active {
+  background: #0078ff;
+}
+
+/* Messages */
+.msg {
+  margin-top: 15px;
+  padding: 10px;
+  background: #ffeaa7;
+  border-radius: 6px;
+  color: #000;
+  text-align: center;
+}
+
+/* ===============================
+   Dashboard Layout
+=============================== */
+.dashboard {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  color: white;
+}
+
+.dashboard h2 {
+  margin-bottom: 10px;
+}
+
+/* Logout button */
+.dashboard button.logout {
+  background: #d9534f;
+}
+
+.dashboard button.logout:hover {
+  background: #c9302c;
+}
+
+/* ===============================
+   Task Form
+===================
