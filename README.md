@@ -22,9 +22,11 @@ It helps **students, mentors, and educators** organize tasks, track progress, an
   - API endpoints protected for authenticated users only.
 
 # DashBoards
-"C:\Users\vishwateja\OneDrive\Pictures\Screenshots\Screenshot 2025-11-19 230254.png"
+<img width="1366" height="1029" alt="Screenshot 2025-11-19 230254" src="https://github.com/user-attachments/assets/61e7cbf3-57ed-413d-82ba-43ce255dccc2" />
+
 # Login Page 
-"C:\Users\vishwateja\OneDrive\Pictures\Screenshots\Screenshot 2025-11-19 230354.png"
+<img width="990" height="933" alt="Screenshot 2025-11-19 230354" src="https://github.com/user-attachments/assets/81638018-98d9-48a0-a98b-2d34e89413f4" />
+
 
 
 ## 🧰 Tech Stack
