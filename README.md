@@ -40,3 +40,54 @@ It helps **students, mentors, and educators** organize tasks, track progress, an
 - Node.js  
 - Express.js  
 - RESTful API architecture
+
+👥 Role Functionality & Access Logic
+👨‍🎓 Student Role
+Create personal tasks
+Update task status
+Delete tasks
+View only their own dashboard
+
+👨‍🏫 Teacher Role
+Teachers have read-only access to student tasks.
+✔ Teacher Task-View Logic:
+Teachers can:
+View all students’ tasks
+Track progress (Pending → Completed)
+Monitor activity to help students improve
+Teachers cannot:
+Edit student tasks
+Delete student tasks
+Change student accounts
+This ensures data integrity & a safe workflow.
+
+🤖 AI Assistance Disclosure:
+This project includes AI assistance for selected features such as recommendations, summaries, or smart suggestions. AI does not override user decisions and is used only to improve productivity.
+
+🧩 API Overview (Update based on your backend routes)
+Examples:
+Auth Routes
+POST /api/auth/register — Create user
+POST /api/auth/login — Login & get JWT
+
+Task Routes
+GET /api/tasks — Fetch tasks
+POST /api/tasks — Create task
+PUT /api/tasks/:id — Update task
+DELETE /api/tasks/:id — Delete task
+
+🪲 Known Issues
+⚠ UI misalignment: Login/register not centered
+⚠ Black background overlay hiding tasks due to CSS conflict
+⚠ Tasks not loading when token not sent in headers
+
+🚀 Suggestions for Improvement
+✨ Add responsive design for mobile/tablet
+✨ Improve UI with cleaner theme
+✨ Add analytics for teachers
+✨ Add deadline reminders
+✨ Integrate AI for smart suggestions
+✨ Deploy frontend + backend:
+Backend → Render / Railway
+Frontend → Vercel / Netlify
+Database → MongoDB Atlas / PlanetScale
